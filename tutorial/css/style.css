@@ -1,0 +1,203 @@
+﻿body {
+    font: 14px Arial,Verdana;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: navy;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: yellow;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+        .navbar a:hover {
+            background: black;
+            color: white;
+        }
+
+main {
+    margin-top: 60px;
+}
+
+#p1 {
+    color: brown;
+}
+.niconne {
+    font-family: 'Niconne', cursive;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 400;
+}
+.arboretum {
+    height: 600px;
+    background-image: url(../images/arboretum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro {
+    height: 200px;
+    font-size: 36px;
+    text-align: center;
+    padding: 70px;
+    background: rgba(255, 255, 255, 0.7);
+    color: yellow;
+    text-shadow: 5px 10px 1px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+figure {
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    background: rgba(255, 0, 255, 0.4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    padding-top: 30%;
+    visibility: hidden;
+    color: yellow;
+    text-shadow: 5px 10px 1px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+figure:hover > figcaption {
+    visibility: visible;
+}
+
+.dropbutton {
+    background-color: #AA4745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #F49694;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+    .dropdown-content a {
+        color: black;
+        font-family: arial;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #F8B1B0
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbutton {
+    background-color: #834E4D;
+}
+canvas {
+
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+    canvas:hover {
+        width: 300px;
+        height: 300px;
+    }
+.block-display {
+    font-family: "Oxygen", sans-serif;
+    display: block;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 2px solid brown;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    font-size: 24px;
+    color: brown;
+}
+.block-display-small {
+    font-family: "Oxygen", sans-serif;
+    display: block;
+    text-transform: uppercase;
+    text-align: left;
+    width: 250px;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+}
+#rounded_corner {
+    border-radius: 50px 0px;
+    background-image: url("../images/dog.jpg");
+    background-size: 100%;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+#rect {
+    width: 320px;
+    height: 130px;
+    z-index: -1;
+    background-color: lightgray;
+    font-size: 1.75em;
+    text-align: right;
+    padding: 20px;
+    padding-left: 40px;
+    top: -180px;
+    bottom: 0px;
+    left: 30px;
+    right: 0px;
+    position: relative;
+    font-family: 'Niconne', cursive;
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+
+
+
+

@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Week 6 tutorial</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script>
+        $(document).ready(function () {
+            $("#jquery").click(function () {
+                $("#maindiv").css("height", "250px");
+                $("#maindiv").css("font-size", "88px");
+                $("#maindiv").html("<b>jQuery</b>");
+            });
+
+            $("#maindiv").mouseenter(function () {
+                $("#maindiv").html("<div id='jquerydiv' style='margin:10px; height:300px; with:100%;'></div>");
+                $("#jquerydiv").css("background-image", "url('images/jquery.png')");
+                $("#jquerydiv").css("background-size", "50%");
+                $("#jquerydiv").css("background-repeat", "no-repeat");
+                $("#jquerydiv").css("display", "none");
+                $("#jquerydiv").slideDown("slow");
+            });
+
+            $("#maindiv").mouseleave(function () {
+                $("#jquerydiv").slideUp("slow", function () {
+                    $("#maindiv").html("<b>jQuery</b>");
+                });
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(
+            function () {
+                $(window).resize(
+                    function () {
+                        $('#w').text('Window width: ' + $(window).width() + 'px')
+                    });
+            });
+    </script>
+    <!--For Q1-->
+    <script>
+        $(document).ready(function () {
+            $(".bg").click(function () {
+                // implement jQuery for click here
+                $(this).css("opacity", "0.7");
+                //$(".centre").css("background-color", "red");
+                $(".centre").css("background-image", $(this).css("background-image"));
+                $(".centre").css("background-size", "100%");
+                $(".centre").css("background-repeat", "no-repeat");
+                $(".centre").slideDown("1000");
+
+            });
+
+            $(".bg").mouseenter(function () {
+                // implement jQuery for mouseenter here
+                $(this).css("opacity", "0.7");
+                $(".centre").slideUp("1000");
+
+            });
+            $(".bg").mouseleave(function () {
+                // implement jQuery for mouseleave here
+                $(this).css("opacity", "1");
+                $(".centre").css("background-image", "url('')");
+                $(".centre").slideUp("1000");
+
+            });
+        });
+    </script>
+
+    <style>
+        .bg {
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        @media (min-width: 768px) {
+            .q1 {
+                padding: 10%;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 768px) {
+            .q1 {
+                padding: 15%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .q1 {
+                padding: 25%;
+            }
+        }
+
+        .centre {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            height: 400px;
+            background-color: lightgrey;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <h2 id="jquery">jQuery</h2>
+        <div id="maindiv"></div>
+        <!--Task 2-->
+        <h1 style="color: red;" id="w">Width: </h1>
+
+        <script>
+            document.getElementById("w").innerHTML = "Window width: " + window.innerWidth + "px";
+        </script>
+        <!--Q1-->
+        <h2>Question 1</h2>
+        <div class="container-fluid">
+            <div class="row" style="margin-top: 50px; margin-bottom:50px;">
+                <div class="col-md-4 col-sm-6 bg q1" style="background-image:url(images/b1.jpg)"></div>
+                <div class="col-md-4 col-sm-6 bg q1" style="background-image:url(images/b2.jpg)"></div>
+                <div class="col-md-4 col-sm-6 bg q1" style="background-image:url(images/b3.jpg)"></div>
+                <div class="col-md-4 col-sm-6 bg q1" style="background-image:url(images/b4.jpg)"></div>
+                <div class="col-md-4 col-sm-6 bg q1" style="background-image:url(images/b5.jpg)"></div>
+                <div class="col-md-4 col-sm-6 bg q1" style="background-image:url(images/b6.jpg)"></div>
+            </div>
+        </div>
+
+        <div id="bgimage" class="centre"></div>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1>Web Design and Programming</h1>
+        </hgroup>
+        <nav>
+            <a href="https://www.canberra.edu.au/">University of Canberra</a>
+            <a href="https://www.google.com.au/">Google search</a>
+            <a href="https://www.bing.com/">Bing search</a>
+        </nav>
+    </header>
+    <article>
+        <h1>HTML5 elements</h1>
+        <section>
+            <h3>Figure</h3>
+            <figure>
+                <img width="100" src=" https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" />
+                <figcaption>Fig 1: HTML5 logo</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h3>Progress</h3>
+            <ul>
+                <li>
+                    Indeterminate: <span>0</span>
+                    <progress max="20"></progress>
+                    <span>100</span>
+                </li>
+                <li>
+                    Determinate:&nbsp;&nbsp; <span>0</span>
+                    <progress value="20" max="100"></progress>
+                    <span>100</span>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Mark</h3>
+            <p>We are learning <mark>HTML5</mark> in this tutorial.</p>
+        </section>
+    </article>
+    <picture>
+        <source srcset="pepper.jpg" media="(max-width:800px)" />
+        <source srcset="wiggy.jpg" media="(min-width: 1000px)" />
+        <img src="wiggypepper.jpg" />
+    </picture>
+    <video width="50%" loop muted autoplay="true" preload="auto">
+        <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XMUYoiUlutM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <h1>Pre-HTML5</h1>
+    <h2>Assignments and Exams</h2>
+    <h3>Assignments</h3>
+    <h4>Assignment 1</h4>
+    <h4>Assignment 2</h4>
+    <h3>Exams</h3>
+    <h4>Final Exam</h4>
+    <h4>Deferred Exam</h4>
+
+    <h1>HTML5</h1>
+    <section>
+        <h1>Assignments and Exams</h1>
+        <section>
+            <h1>Assignments</h1>
+            <section>
+                <h1>Assignment 1</h1>
+            </section>
+            <section>
+                <h1>Assignment 2</h1>
+            </section>
+        </section>
+        <section>
+            <h1>Exams</h1>
+            <section>
+                <h1>Final Exam</h1>
+            </section>
+            <section>
+                <h1>Deferred Exam</h1>
+            </section>
+        </section>
+    </section>
+    <input />
+    <input placeholder="Enter your password" />
+    <input type="checkbox" />Tick me
+    <input type="submit" />
+    <input type="date" />
+    <input type="radio" id="green" name="greenbutton" value="greencolor" />Red
+    <input type="radio" id="red" name="redbutton" value="redcolor" />Green
+    <input type="radio" id="blue" name="bluebutton" value="bluecolor" />Blue
+
+    This line uses line break &lt;br&gt; element<br>
+    This line uses line break &lt;br&gt; element<br>
+    <p>This line uses paragraph &lt;p&gt; element</p>
+    <p>This line uses paragraph &lt;p&gt; element</p>
+    <div>This line uses block &lt;div&gt; element</div>
+    <div>This line uses block &lt;div&gt; element</div>
+
+
+    <!--Question 1-->
+    <header>
+        <hgroup>
+            <h1>Web Design and Programming</h1>
+        </hgroup>
+        <nav>
+            <ul>
+                <li><a href="https://www.canberra.edu.au/">University of Canberra</a></li>
+                <li><a href="https://www.google.com.au/">Google search</a></li>
+                <li><a href="https://www.bing.com/">Bing search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Question 2-->
+    <p>What is your favourite colour?</p>
+
+    <div>
+        <input type="radio" id="red" name="colour" value="red"
+               checked>
+        <label for="red">Red</label>
+    </div>
+
+    <div>
+        <input type="radio" id="green" name="colour" value="green">
+        <label for="green">Green</label>
+    </div>
+
+    <div>
+        <input type="radio" id="blue" name="colour" value="blue">
+        <label for="blue">Blue</label>
+    </div>
+    <!--Question 3-->
+    <code>
+        <p>y(x) = ax<sup>2</sup> + bx + c</p>
+    </code>
+    <!--Question 4-->
+    <div>
+        <iframe width="48%" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="48%" height="315" src="https://www.youtube.com/embed/9gTw2EDkaDQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p></p>
+    </div>
+    <!--Question 5-->
+    <input placeholder="WPAD Tutorial" readonly />
+           <p></p>
+    <!--Question 6-->
+    <select name="phones">
+        <option disabled value="" selected >Select an option</option>
+        <optgroup label="Apple">
+            <option>iPhone 7</option>
+            <option>iPhone 10</option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option>Samsung Galaxy 9</option>
+            <option>Samsung Galaxy 11</option>
+        </optgroup>
+    </select>
+</body>
+</html>

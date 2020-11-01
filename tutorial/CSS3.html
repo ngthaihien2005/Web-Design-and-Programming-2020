@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS3 Tutorial</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <!--Ex2-->
+    <header>
+        <nav class="navbar">
+            <a href="http://www.canberra.edu.au/">University of Canberra</a>
+            <a href="http://www.google.com.au/">Google search</a>
+            <a href="http://www.bing.com /">Bing search</a>
+        </nav>
+    </header>
+    <!--Ex1-->
+    <main class="main">
+        <!--Ex4-->
+        <p class="niconne">Web Design and Programming</p>
+        <!--EX3-->
+        <p id="p1">CSS and CSS3</p>
+        <!--Ex5-->
+        <div class="arboretum"></div>
+        <div class="arboretum">
+            <div class="intro niconne">Arboretum in Canberra</div>
+        </div>
+        <div class="arboretum"></div>
+        <!--Ex6-->
+        <figure>
+            <img src="images/xmas.jpg" alt="Xmas">
+            <figcaption>Merry Christmas</figcaption>
+        </figure>
+        <!--Ex7-->
+        <div class="dropdown">
+            <button class="dropbutton">Web Design</button>
+            <div class="dropdown-content">
+                <a href="#">HTML5</a>
+                <a href="#">CSS3</a>
+                <a href="#">JavaScript</a>
+            </div>
+        </div>
+        <!--Ex8-->
+        <p></p>
+        <canvas></canvas>
+        <p>Hover over the canvas element above, to see the transition effect.</p>
+        <!--Q1-->
+        <p class="niconne">Question 1</p>
+        <figure>
+            <img src="images/xmas.jpg" alt="Xmas">
+            <figcaption class="niconne">Merry Christmas</figcaption>
+        </figure>
+        <!--Q2-->
+        <p class="niconne">Question 2</p>
+        <div>
+            <span class="block-display">HTML and HTML5 </span>
+            <span class="block-display-small">CSS and CSS3</span>
+        </div>
+
+        <!--Q3-->
+        <p class="niconne">Question 3</p>
+        <p id="rounded_corner"></p>
+        <p id="rect">Web Design<br />and<br />Programming<br />Week 3 Tutorial</p>
+
+        <!--Q4-->
+        <p class="niconne">Question 4</p>
+        <svg height="400" width="400" style="background-color: navy;">
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:yellow;stop-opacity:1" />
+                    <stop offset="70%" style="stop-color:brown;stop-opacity:0.7" />
+                </linearGradient>
+            </defs>
+            <ellipse cx="200" cy="200" rx="150" ry="150" fill="url(#grad1)"/>
+            Sorry, your broser does not support inline SVG.
+        </svg>
+    </main>
+
+
+    </body>
+    </html>

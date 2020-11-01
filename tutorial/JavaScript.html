@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+<body>
+    <!--Add your HTML elements to the blank lines below-->
+    <div id="mydiv">What is HTML?</div>
+    <p onclick="changeHtmlContent()">Click me to find out the answer.</p>
+
+    <p onclick="changeHtmlContent()" onmouseover="makeTextLarger(this)"
+       onmouseout="makeTextSmaller(this)">Click me to find out the answer.</p>
+
+    <p id="wndw"> </p>
+    <p id="scrn"> </p>
+    <p id="avail"> </p>
+    <p id="url"> </p>
+    <p id="hst"> </p>
+    <p id="pth"> </p>
+
+    <div>
+        <input type="button" value="Load Google site" onclick="loadGoogle()">
+    </div>
+    <div>
+        <button onclick="alertFunc()">Pop up Alert</button>
+    </div>
+    <div>
+        <button onclick="confirmFunc()">Confirm Box</button>
+        <p id="cnfrm"></p>
+    </div>
+    <div>
+        <button onclick="promptFunc()">Prompt Box</button>
+        <p id="prmpt"></p>
+    </div>
+
+    <script src="js/site.js"></script>
+
+    <!--Q1-->
+    <p class="niconne">Question 1</p>
+
+    <div class="container-fluid" style="margin:40px;">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 q1" style="background-image:url(../images/b1.jpg); background-size:100%; background-repeat: no-repeat;" onclick="ImgClicked(this)" onmouseover="makeImgBlurr(this)"
+       onmouseout="makeImgNotBlurr(this)">
+            </div>
+            <div class="col-md-4 col-sm-6 q1" style="background-image: url(../images/b2.jpg);  background-size:100%; background-repeat: no-repeat;" onclick="ImgClicked(this)" onmouseover="makeImgBlurr(this)"
+       onmouseout="makeImgNotBlurr(this)">
+            </div>
+            <div class="col-md-4 col-sm-6 q1" style="background-image: url(../images/b3.jpg); background-size:100%; background-repeat: no-repeat;" onclick="ImgClicked(this)" onmouseover="makeImgBlurr(this)"
+       onmouseout="makeImgNotBlurr(this)">
+            </div>
+            <div class="col-md-4 col-sm-6 q1" style="background-image: url(../images/b4.jpg); background-size:100%; background-repeat: no-repeat;" onclick="ImgClicked(this)" onmouseover="makeImgBlurr(this)"
+       onmouseout="makeImgNotBlurr(this)">
+            </div>
+            <div class="col-md-4 col-sm-6 q1" style="background-image: url(../images/b5.jpg); background-size:100%; background-repeat: no-repeat;" onclick="ImgClicked(this)" onmouseover="makeImgBlurr(this)"
+       onmouseout="makeImgNotBlurr(this)">
+            </div>
+            <div class="col-md-4 col-sm-6 q1" style="background-image: url(../images/b6.jpg); background-size:100%; background-repeat: no-repeat;" onclick="ImgClicked(this)" onmouseover="makeImgBlurr(this)"
+       onmouseout="makeImgNotBlurr(this)">
+            </div>
+        </div>
+    </div>
+    <style>
+        @media (min-width: 992px) and (max-width: 1200px) {
+            div > div > div > h3 {
+                font-size: 1.8em;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+            div > div > div > h3 {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            div > div > div > h3 {
+                font-size: 1.3em;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .q1 {
+                padding: 10%;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 768px) {
+            .q1 {
+                padding: 15%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .q1 {
+                padding: 25%;
+            }
+        }
+    </style>
+    <div id="bgimage" class="centre"></div>
+</body>
+</html>
