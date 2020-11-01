@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Canberra Restaurants - Locations</title>
+    <!-- Bootstrap (keep these links in the current order) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+    <!--<script src="js/site.js"></script>-->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">Canberra Restaurants</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurants.html">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cuisines.html">Cuisines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dishes.html">Dishes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prices.html">Prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="locations.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactAbout.html">Contact & About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Background image Parralex scrolling -->
+        <div class="bgi">
+            <div class="bgs bgc"></div>
+        </div>
+        <div class="bgi">
+            <div class="bgs bgc">
+                <div>
+                    <span class="block-display">Canberra <br> Restaurants</span>
+                </div>
+                <div class="intro niconne">Locations</div>
+            </div>
+        </div>
+        <div class="bgi">
+            <div class="bgs bgc"></div>
+        </div>
+        <!--Insert Map here-->
+        <div id="googleMap" style="width:100%;height:900px;"></div>
+        <script src="http://maps.googleapis.com/maps/api/js?key="AIzaSyBiUfYzqAa-KahcctDQ6j_lTTLCtUEM8XU"></script>
+        <script src="js/site.js"></script>
+    </main>
+    <footer>
+        <p>&#169; 2020 - Canberra Restaurants. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

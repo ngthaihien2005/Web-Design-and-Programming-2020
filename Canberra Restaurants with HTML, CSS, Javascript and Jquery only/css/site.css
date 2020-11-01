@@ -1,0 +1,751 @@
+﻿.wrapper {
+    padding-top:40px;
+}
+body {
+    font: 18px Arial,Verdana;
+}
+.niconne {
+    font-family: 'Niconne', cursive;
+    font-size: 4em;
+    /*text-align: center;*/
+    font-weight: 400;
+    color: darkblue;
+}
+
+.niconne2 {
+    font-family: 'Niconne', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+    color: darkblue;
+}
+.bgi {
+    /*height: 600px;*/
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgs {
+    width: 100%;
+    padding: 6%;
+    height: 196px;
+}
+.bgc {
+    background-color : rgba(31,20,20,0.7);
+}
+
+.intro {
+    height: 200px;
+    font-size: 36px;
+    text-align: center;
+    padding: 70px;
+    background: rgba(255, 255, 255, 0);
+    color: #f8bd08;
+    font-size: 3.5rem;
+}
+
+.intro-2 {
+    margin-top: 95px;
+    text-align: center;
+    color: #f8bd08;
+}
+
+.block-display {
+    font-family: "Oxygen", sans-serif;
+    display: block;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    text-align: center;
+    width: 400px;
+    padding: 5px;
+    font-size: 1.45em;
+    color: white;
+    margin: -109px auto 0px auto;
+}
+
+.block-display-2 {
+    font-family: "Oxygen", sans-serif;
+    display: block;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    text-align: center;
+    width: 400px;
+    padding: 5px;
+    font-size: 1.45em;
+    color: white;
+    margin: 70px auto 0px auto;
+}
+
+.block-display-small {
+    font-family: "Oxygen", sans-serif;
+    display: block;
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    /* letter-spacing: 1px; */
+    margin: 90px auto -75px auto;
+}
+
+.heading-text-1 {
+    font-family: "Oxygen", sans-serif;
+    display: block;
+    /*word-spacing: 5px;*/
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: left;
+    width: 541px;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+.heading-text-2 {
+    font-family: "Oxygen", sans-serif;
+    display: block;
+    /*word-spacing: 5px;*/
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    /*width: 541px;*/
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+p {
+    margin-right: 5px;
+    line-height: 27px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.background-img {
+    margin-top: 40px;
+    height: 420px;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-img-2 {
+    margin-top: 40px;
+    height: 587px;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-size {
+    width: 100%;
+    height: 420px;
+    padding: 0.5%;
+}
+
+.background-size-2{
+    width: 100%;
+    height: 587px;
+    padding: 4.5%;
+}
+
+.background-cover {
+    background-color: rgba(31,20,20,0.7);
+}
+
+.welcome-image img{
+    width: 90%; 
+    padding-top: 70px;
+    padding-bottom:30px;
+}
+
+.container-fluid {
+    /*padding: 80px 0;*/
+}
+
+.home-page-section p {
+    text-align: center;
+    color: white;
+    margin-right: 0;
+    line-height: 25px;
+}
+
+ a {
+    color: #f8bd08;
+}
+
+.review p {
+    color: black;
+    text-align: left;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #f8bd08;
+}
+
+.header-centre {
+    text-align: center;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.restaurants-img {
+    padding: 12%;
+}
+.accor-title {
+    color: black;
+}
+
+.centre {
+    /*margin-top: 20px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    background-image: url();
+}
+
+
+.overclay {
+    background-color: rgba(31,20,20,0.7);
+    font-size: 0.9em;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    padding-top: 8%;
+    visibility: hidden;
+    color: white;
+    z-index:-1;
+}
+    .overclay p {
+        margin: 0 20px;
+    }
+
+.restaurants-img:hover >.overclay {
+    visibility: visible;
+}
+
+.button {
+    background-color: #33B5FF;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10px 10px 10px 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+/*About page*/
+
+.information-ul {
+    margin: 0.625em 2.5em;
+}
+
+    .information-ul li a {
+        text-decoration: none;
+    }
+
+        .information-ul li a:hover {
+            color: #b18b9b;
+        }
+
+    .information-ul li {
+        padding: 0.625em 0em;
+    }
+
+.contact-us ul {
+    margin: 0.625em 2.5em;
+}
+
+    .contact-us ul li {
+        margin: 0.625em 0;
+    }
+
+        .contact-us ul li a {
+            text-decoration: none;
+        }
+
+            .contact-us ul li a:hover {
+                text-decoration: underline;
+            }
+
+.contact-img {
+    text-align: center;
+    width: 100%;
+}
+
+    .contact-img img {
+        width: 20%;
+    }
+
+.media-link {
+    text-align: center;
+}
+
+.information-page {
+    margin: 0 10px;
+}
+
+/*Media icon */
+.facebook,
+.instagram {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+    .facebook img:hover,
+    .intagram img:hover {
+        cursor: pointer;
+    }
+
+/*For the form*/
+input[type=text],input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    /*background-color: #4CAF50;*/
+    background-color: #f8bd08;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.dishes-section .heading-text-1 {
+    text-align: center;
+}
+.dishes-section p {
+    color: black;
+    padding: 10px;
+}
+
+/*Prices page*/
+/* Create two columns/boxes that floats next to each other */
+.prices-section {
+    float: left;
+    width: 30%;
+    height: auto;
+    background: #ccc;
+    padding: 20px;
+}
+
+    /* Style the list inside the menu */
+.prices-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: auto;
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    .prices-section, article {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .niconne2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size:95%;
+        font-weight: bold;
+    }
+    p {
+        font-size: 90%;
+    }
+    .information-page p {
+        font-size: 90%;
+    }
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.googleMap p {
+    padding-left: 163px;
+    background-color: red;
+}
+
+.cuisines-img img {
+    padding: 20px 0px;
+}
+.cuisines-img p {
+    line-height: 33px;
+    margin: 0px;
+    font-size: 1.04em;
+}
+.cuisines-img .heading-text-1 {
+    padding-top: 35px;
+    font-size: 30px;
+    width: 650px;
+}
+.card-body {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+/*Media queries*/
+@media (min-width :992px) {
+    .niconne {
+        font-size: 3.5em;
+    }
+
+    .block-display-2 {
+        letter-spacing: 7px;
+        font-size: 1.45em;
+        margin: 72px auto 0px auto;
+        width: 420px;
+    }
+    .block-display {
+        letter-spacing: 7px;
+        font-size: 1.45em;
+        margin: -141px auto 0px auto;
+        width: 420px;
+    }
+    .intro {
+        padding-top: 95px;
+    }
+    .block-display-small {
+        padding-bottom: -10px;
+        margin: 120px auto -102px auto;
+    }
+    .intro-2 {
+        margin-top: 110px;
+    }
+}
+@media (min-width: 768px) and (max-width : 992px) {
+    .block-display {
+        width: 325px;
+        font-size: 1.15em;
+        margin: -58px 180px 0px auto;
+    }
+    .intro {
+        font-size: 2.5rem;
+    }
+    .heading-text-1 {
+        letter-spacing: 3px;
+        width: 459px;
+        font-size: 24px;
+    }
+    .niconne {
+        font-size: 3em;
+    }
+    .heading-text-1 {
+        letter-spacing: 3px;
+        width: 430px;
+        font-size: 24px;
+    }
+    .heading-text-2 {
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+    .restaurants-img {
+        padding: 12.5%;
+    }
+    .overclay {
+        font-size: 70%;
+    }
+        .overclay h4 {
+            font-size: 1.15rem;
+        }
+        .overclay {
+            padding-top: 3%;
+        }
+        .overclay p, .overclay h4 {
+            line-height: 15px;
+        }
+    .button {
+        padding: 5px 12.5px;
+        font-size: 0.6rem;
+        margin: 2px 1px;
+    }
+    .centre {
+        height: 340px;
+    }
+    .cuisines-img .heading-text-1 {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .cuisines-img .heading-text-1 {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .cuisines-img p {
+        line-height: 20px;
+        margin: 0px;
+        font-size: 0.8em;
+    }
+    .block-display-2 {
+        width: 320px;
+        font-size: 1.25em;
+        margin: 50px auto 0px auto;
+    }
+    .block-display {
+        width: 320px;
+        font-size: 1.25em;
+        margin: -161px auto 0px auto;
+    }
+    .intro-2 {
+        margin-top: 50px;
+    }
+}
+@media (min-width: 576px) and (max-width : 768px) {
+    .block-display {
+        width: 275px;
+        padding: 4px;
+        font-size: 1em;
+        margin: -61px 180px 0px auto;
+    }
+    .intro {
+        font-size: 2rem;
+    }
+    .niconne {
+        font-size: 2.75em;
+    }
+    .heading-text-1 {
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+    p {
+        line-height: 25px;
+    }
+    .welcome-image img {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .intro-2 {
+        margin-top: 39px;
+        font-size: 2.5em;
+    }
+    .background-size {
+        height: 900px;
+        padding: 0.5%;
+    }
+    .background-img {
+        height: 900px;
+    }
+    .heading-text-2 {
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .dishes-section p {
+        font-size: 90%;
+    }
+    .restaurants-img {
+        padding: 18.5%;
+    }
+    .overclay {
+        font-size: 80%;
+    }
+
+        .overclay h4 {
+            font-size: 1.35rem;
+        }
+
+    .overclay {
+        padding-top: 4%;
+    }
+
+        .overclay p, .overclay h4 {
+            line-height: 18px;
+        }
+
+    .button {
+        padding: 7px 12px;
+        font-size: 0.7rem;
+        margin: 3px 2px;
+    }
+    .centre {
+        height: 260px;
+    }
+    .cuisines-img p {
+        line-height: 18px;
+        font-size: 0.7em;
+    }
+    .cuisines-img .heading-text-1 {
+        padding-top: 16px;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .block-display-2 {
+        letter-spacing: 4px;
+        width: 300px;
+        font-size: 1.15em;
+        margin: 47px auto 0px auto;
+    }
+    .block-display {
+        letter-spacing: 4px;
+        width: 300px;
+        font-size: 1.15em;
+        margin: -161px auto 0px auto;
+    }
+    .block-display-small {
+        font-size: 16px;
+    }
+}
+@media (max-width : 576px) {
+    .block-display {
+        width: 230px;
+        font-size: 0.9em;
+        margin: -14px 118px 0px auto;
+    }
+    .intro {
+        font-size: 1.5rem;
+    }
+    .niconne {
+        font-size: 2.25em;
+    }
+    .heading-text-1 {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    .heading-text-2 {
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .dishes-section p {
+        font-size: 80%;
+    }
+    .restaurants-img {
+        padding: 37%;
+    }
+    .centre {
+        height: 200px;
+    }
+    .cuisines-img .heading-text-1 {
+        padding-top: 23px;
+        font-size: 15px;
+        /* width: 650px; */
+        padding-bottom: 2px;
+        letter-spacing: 1px;
+    }
+    .cuisines-img p {
+        line-height: 14px;
+        font-size: 0.6em;
+    }
+    .block-display-2 {
+        letter-spacing: 3px;
+        width: 250px;
+        font-size: 1em;
+        margin: 64px auto 0px auto;
+    }
+    .block-display {
+        letter-spacing: 3px;
+        width: 250px;
+        font-size: 1em;
+        margin: -120px auto 0px auto;
+    }
+    .block-display-small {
+        font-size: 14px;
+        margin: 90px 14px -75px -89px;
+    }
+    .intro-2 {
+        margin-top: 39px;
+        font-size: 2.5em;
+    }
+
+    .background-size {
+        height: 900px;
+        padding: 0.5%;
+    }
+
+    .background-img {
+        height: 900px;
+    }
+}
+@media (max-width:425px) {
+    .intro {
+        font-size: 2rem;
+    }
+    .overclay {
+        font-size: 75%;
+    }
+
+        .overclay h4 {
+            font-size: 1rem;
+        }
+
+    .overclay {
+        padding-top: 3%;
+    }
+
+        .overclay p, .overclay h4 {
+            line-height: 15px;
+        }
+
+    .button {
+        padding: 5px 12.5px;
+        font-size: 0.6rem;
+        margin: 2px 1px;
+    }
+    .centre {
+        height: 120px;
+    }
+    .intro-2 {
+        margin-top: 20px;
+    }
+    .home-page-section p {
+        line-height: 18px;
+    }
+}
