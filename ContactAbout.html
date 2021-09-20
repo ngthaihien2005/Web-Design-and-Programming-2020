@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Canberra Restaurants - Contact &amp; About</title>
+    <!-- Bootstrap (keep these links in the current order) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">Canberra Restaurants</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurants.html">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cuisines.html">Cuisines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dishes.html">Dishes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prices.html">Prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="locations.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactAbout.html">Contact & About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="background-img-2">
+            <div class="background-cover background-size-2">
+                <div>
+                    <span class="block-display-2">Canberra <br> Restaurants</span>
+                </div>
+                <div class="intro niconne">Contact &amp; About</div>
+            </div>
+        </div>
+
+        <div class="information-page">
+            <p>In this page: </p>
+            <ul class="information-ul">
+                <li><a href="#about-us" title="Go to About us part"> About us</a></li>
+                <li><a href="#contact-us" title="Go to contact us part"> Contact us</a></li>
+                <li><a href="#contact-form" title="Go to contact form part"> Contact Form</a></li>
+            </ul>
+            <div class="about-us" id="about-us">
+                <h3 class="header-centre niconne2">About us</h3>
+                <p>This website for Canberra Restaurants. Created by Hien Nguyen at University of Canberra 2020.</p>
+                <p>All the images are provided based on the study purposes.</p>
+                <div class="media-link">
+                    <p>Find us on</p>
+                    <a href="https://www.instagram.com/" target="_blank" title="Visit our instagram page">
+                        <img src="images/inta.PNG" alt="instagram icon" class="instagram">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" title="Visit our facebook page">
+                        <img src="images/facebook.PNG" alt="facebook icon" class="facebook">
+                    </a>
+                </div>
+            </div>
+            <div class="contact-us" id="contact-us">
+                <h3 class="header-centre niconne2">Contact us</h3>
+                <p>We are here to help you with your concerns. If you have any further question, please do not hesitate to contact us by one of following help lines: </p>
+                <!--                    create phone number and email clickable-->
+                <ul>
+                    <li> Inside Australia: <a href="tel:1300-0000-5555" title="Call 1300 0000 5555">1300 0000 5555</a></li>
+                    <li> Outside Australia: <a href="tel:3333-3333-333" title="Call 3333 3333 333">3333 3333 333</a></li>
+                </ul>
+                <p>We are also contacted by emails. We are trying our best to reply on your emails on 2-5 business days.Our emails are:</p>
+                <ul>
+                    <li> General enqueries: <a href="mailto:generalenqueries@canberrarestaurants.com" title="Email us today">generalenqueries@canberrarestaurants.com</a></li>
+                    <li> Job interest: <a href="mailto:jobs@canberrarestaurants.com" title="Email us today">jobs@canberrarestaurants.com</a></li>
+                </ul>
+                <p class="contact-img"><img src="../images/contactus.png" alt="contact us icon"></p>
+            </div>
+        </div>
+        <h3 class="contact-form header-centre niconne2" id="contact-form">Contact Form</h3>
+
+        <div class="container">
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Your Phone Number">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="newZealand">New Zealand</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit" onclick="alertFunc()">
+            </form>
+            <script>
+                function alertFunc() {
+                    alert("Your request has beeen recieved. Thank you!");
+                }
+            </script>
+        </div>
+
+    </main>
+    <footer>
+        <p>&#169; 2020 - Canberra Restaurants. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
